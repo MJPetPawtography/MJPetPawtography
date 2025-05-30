@@ -1,0 +1,46 @@
+
+h1 {
+    color: black;
+    background-color:white;
+    font-family: "helvetica
+    ";
+  }
+  
+  p {
+    color: grey;
+    font-size: 20px;
+    font-family: "sans serif";
+    text-align: center;
+  }
+  thead tr td {
+    background-color:lightblue;
+    border:2px solid blue;
+    width: 100%;
+  }
+  tbody tr td,
+  table{
+    border: 1px solid blue;
+    width: 100%;
+  }
+  
+  .column {
+    float: left;
+    width: 32%;
+    padding: 3px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .table{
+    width: 50%;
+    table-layout: auto;
+}
+
+    .Contact{
+        color: black;
+        text-align: start;
+    }
